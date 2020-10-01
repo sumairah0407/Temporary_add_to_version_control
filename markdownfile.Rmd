@@ -1,0 +1,23 @@
+---
+title: "HelloWorld.md"
+author: "me"
+date: "02/10/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## This is a markdown file
+ Lies below is the result of a desciptive analysis of speed and distance covered by a car
+
+```{r cars}
+summary(cars)
+```
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
